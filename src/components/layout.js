@@ -17,9 +17,6 @@ export default ({ children, location }) => (
         cosmicjsSettings(slug: { eq: "general" }) {
           metadata {
             site_heading
-            homepage_hero {
-              imgix_url
-            }
           }
         }
       }
